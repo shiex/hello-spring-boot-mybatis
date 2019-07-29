@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yxvk.hello.spring.boot.mybatis.mapper.BookMapper">
+  <resultMap id="BaseResultMap" type="com.yxvk.hello.spring.boot.mybatis.entity.Book">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="bookId" jdbcType="INTEGER" property="bookid" />
+    <result column="bookName" jdbcType="VARCHAR" property="bookname" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="press" jdbcType="VARCHAR" property="press" />
+    <result column="date" jdbcType="DATE" property="date" />
+    <result column="sales" jdbcType="INTEGER" property="sales" />
+    <result column="price" jdbcType="INTEGER" property="price" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="details" jdbcType="LONGVARCHAR" property="details" />
+  </resultMap>
+</mapper>

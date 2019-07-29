@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yxvk.hello.spring.boot.mybatis.mapper.BorrowMapper">
+  <resultMap id="BaseResultMap" type="com.yxvk.hello.spring.boot.mybatis.entity.Borrow">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="bookId" jdbcType="INTEGER" property="bookid" />
+    <result column="borrowDate" jdbcType="DATE" property="borrowdate" />
+    <result column="repayDate" jdbcType="DATE" property="repaydate" />
+    <result column="userId" jdbcType="INTEGER" property="userid" />
+  </resultMap>
+</mapper>
