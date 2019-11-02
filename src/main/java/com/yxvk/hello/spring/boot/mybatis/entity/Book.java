@@ -1,9 +1,9 @@
 package com.yxvk.hello.spring.boot.mybatis.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
 import java.util.Date;
+import javax.persistence.*;
 
+@Table(name = "library..book")
 public class Book {
     /**
      * 主键

@@ -2,6 +2,7 @@ package com.yxvk.hello.spring.boot.mybatis.entity;
 
 import javax.persistence.*;
 
+@Table(name = "library..user")
 public class User {
     @Id
     @Column(name = "userId")
